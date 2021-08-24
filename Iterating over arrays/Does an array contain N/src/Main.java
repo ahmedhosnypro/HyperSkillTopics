@@ -12,10 +12,8 @@ class Main {
         int num = scanner.nextInt();
         boolean found = false;
         for (var n :array){
-            if (n == num) {
+            if (n == num)
                 found = true;
-                break;
-            }
         }
         System.out.println(found);
     }

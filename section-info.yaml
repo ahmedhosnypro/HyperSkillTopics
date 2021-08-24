@@ -1,5 +1,16 @@
 content:
-- Branching statements
-- The while and do-while loops
-- Relational operators
-- BigDecimal
+- Integer types and operations
+- NPE (1)
+- Singleton
+- Strategy
+- Encapsulating object creation
+- Comparable
+- BigInteger
+- Iterating over arrays
+- Command
+- Generics and Reflection
+- Builder
+- Decorator
+- Observer (1)
+- Facade
+- Abstract factory
