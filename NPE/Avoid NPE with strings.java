@@ -4,11 +4,12 @@ import java.util.Scanner;
 public class Main {
 
     public static String concatStrings(String str1, String str2) {
-        /* write your code here */
-        if (str1 == null)
+        if (str1 == null) {
             str1 = "";
-        if (str2 == null)
+        }
+        if (str2 == null) {
             str2 = "";
+        }
         return str1.concat(str2);
     }
 
