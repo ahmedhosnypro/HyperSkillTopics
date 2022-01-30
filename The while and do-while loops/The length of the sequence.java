@@ -4,14 +4,13 @@ import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
-        // put your code here
         Scanner scanner = new Scanner(System.in);
         List<Integer> numbers = new ArrayList<>();
         while (true) {
-            int n = scanner.nextInt();
-            if (n==0)
+            int num = scanner.nextInt();
+            if (num == 0)
                 break;
-            else numbers.add(n);
+            else numbers.add(num);
         }
         System.out.println(numbers.size());
     }

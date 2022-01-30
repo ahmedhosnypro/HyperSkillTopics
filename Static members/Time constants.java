@@ -16,5 +16,6 @@ final class TimeConstants {
     public static final int SECONDS_IN_DAY = 24 * SECONDS_IN_HOUR;
     public static final int SECONDS_IN_WEEK = 7 * SECONDS_IN_DAY;
 
-    private TimeConstants() { }
+    private TimeConstants() {
+    }
 }

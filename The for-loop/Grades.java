@@ -2,30 +2,29 @@ import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
-        // put your code here
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        int A = 0, B = 0, C = 0, D = 0;
+        int students = scanner.nextInt();
+        int gradeA = 0, gradeB = 0, gradeC = 0, gradeD = 0;
 
-        for (int i = 0; i < n; i++){
+        for (int i = 0; i < students; i++) {
             int current = scanner.nextInt();
-            switch (current){
+            switch (current) {
                 case 2:
-                    D++;
+                    gradeD++;
                     break;
                 case 3:
-                    C++;
+                    gradeC++;
                     break;
                 case 4:
-                    B++;
+                    gradeB++;
                     break;
                 case 5:
-                    A++;
+                    gradeA++;
                     break;
                 default:
                     break;
             }
         }
-        System.out.println(D + " " + C + " " + B + " " + A);
+        System.out.println(gradeD + " " + gradeC + " " + gradeB + " " + gradeA);
     }
 }

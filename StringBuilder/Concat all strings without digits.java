@@ -5,7 +5,7 @@ class ConcatenateStringsProblem {
     public static String concatenateStringsWithoutDigits(String[] strings) {
         // write your code with StringBuilder here
         StringBuilder concat = new StringBuilder("");
-        for (int i = 0; i < strings.length; i++){
+        for (int i = 0; i < strings.length; i++) {
             concat.append(strings[i]);
         }
         return concat.toString().replaceAll("\\d", "");

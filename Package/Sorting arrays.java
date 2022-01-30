@@ -1,5 +1,4 @@
 
-
 class ArraySorting {
     /**
      * @param array unordered sequence of strings

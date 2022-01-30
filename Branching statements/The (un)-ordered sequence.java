@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
-        // put your code here
         Scanner scanner = new Scanner(System.in);
 
         int input = scanner.nextInt();
@@ -11,20 +10,18 @@ class Main {
         boolean asc = true;
         boolean desc = true;
 
-        while (true){
+        while (true) {
             input = scanner.nextInt();
-            if (input == 0){
+            if (input == 0) {
                 break;
             }
-            if (input >= prevAsc){
+            if (input >= prevAsc) {
                 prevAsc = input;
-            }
-            else asc = false;
+            } else asc = false;
 
-            if (input <= prevDesc){
+            if (input <= prevDesc) {
                 prevDesc = input;
-            }
-            else desc = false;
+            } else desc = false;
         }
 
         System.out.println(asc || desc);

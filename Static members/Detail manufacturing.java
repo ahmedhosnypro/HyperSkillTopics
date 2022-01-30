@@ -5,7 +5,7 @@ class ManufacturingController {
 
     public static String requestProduct(String product) {
         numberOfProducts++;
-        return numberOfProducts +  ". Requested " + product;
+        return numberOfProducts + ". Requested " + product;
     }
 
     public static int getNumberOfProducts() {

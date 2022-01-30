@@ -2,7 +2,7 @@ class EnglishAlphabet {
 
     public static StringBuilder createEnglishAlphabet() {
         StringBuilder ABC = new StringBuilder("A");
-        for (char ch = 'B'; ch <= 'Z'; ch++){
+        for (char ch = 'B'; ch <= 'Z'; ch++) {
             ABC.append(" " + ch);
         }
         return ABC;

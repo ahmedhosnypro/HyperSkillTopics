@@ -17,7 +17,7 @@ class Main {
     public static void main(String[] args) {
 
         final Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        printPartitions(n, n, "");
+        int num = scanner.nextInt();
+        printPartitions(num, num, "");
     }
 }

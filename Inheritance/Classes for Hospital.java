@@ -6,10 +6,10 @@ class Employee extends Person {
 
 }
 
-class Doctor extends Employee{
+class Doctor extends Employee {
 
 }
 
-class Patient extends Person{
+class Patient extends Person {
 
 }

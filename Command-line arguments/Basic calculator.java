@@ -4,13 +4,13 @@ class Problem {
         int fstNumber = Integer.parseInt(args[1]);
         int sndNumber = Integer.parseInt(args[2]);
 
-        switch (operation){
+        switch (operation) {
             case '+':
                 int result = fstNumber + sndNumber;
                 System.out.println(result);
                 break;
             case '-':
-                  result = fstNumber - sndNumber;
+                result = fstNumber - sndNumber;
                 System.out.println(result);
                 break;
             case '*':

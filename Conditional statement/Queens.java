@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
-        // put your code here
         Scanner scanner = new Scanner(System.in);
 
         int x1 = scanner.nextInt();
@@ -15,10 +14,9 @@ class Main {
         boolean d = Math.abs(x1 - y1) == Math.abs(x2 - y2);
         boolean d2 = (x2 + y2) == (x1 + y1);
 
-        if (c || r || d || d2){
+        if (c || r || d || d2) {
             System.out.println("YES");
-        }
-        else {
+        } else {
             System.out.println("NO");
         }
     }

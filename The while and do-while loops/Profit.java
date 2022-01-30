@@ -2,15 +2,14 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        // write your code here
         Scanner scanner = new Scanner(System.in);
 
-        double M = scanner.nextDouble();
-        double P = scanner.nextDouble();
-        double K = scanner.nextDouble();
+        double money = scanner.nextDouble();
+        double profit = scanner.nextDouble();
+        double limit = scanner.nextDouble();
         int year = 0;
-        while (M < K){
-            M += M * P / 100;
+        while (money < limit) {
+            money += money * profit / 100;
             year++;
         }
         System.out.println(year);

@@ -4,10 +4,10 @@ public class Main {
 
     public static int comb(int n, int k) {
         // write your code here
-        if (k == 0){
+        if (k == 0) {
             return 1;
         }
-        if (k > n){
+        if (k > n) {
             return 0;
         }
         return comb(n - 1, k) + comb(n - 1, k - 1);

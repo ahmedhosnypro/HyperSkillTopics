@@ -1,5 +1,4 @@
-// write your class here
-class Box{
+class Box {
     double length;
     double height;
     double width;

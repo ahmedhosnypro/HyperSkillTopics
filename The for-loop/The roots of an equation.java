@@ -2,27 +2,26 @@ import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
-        // put your code here
         Scanner scanner = new Scanner(System.in);
 
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
-        int c= scanner.nextInt();
-        int d = scanner.nextInt();
+        int numA = scanner.nextInt();
+        int numB = scanner.nextInt();
+        int numC = scanner.nextInt();
+        int numD = scanner.nextInt();
 
         StringBuilder str = new StringBuilder("");
 
-        for (int i = 0; i<= 1000; i++){
+        for (int i = 0; i <= 1000; i++) {
             int cubic = i * i * i;
             int square = i * i;
-            boolean bool = (a * cubic + b * square + c * i + d) == 0;
+            boolean bool = (numA * cubic + numB * square + numC * i + numD) == 0;
 
-            if (bool){
+            if (bool) {
                 str.append(i);
             }
         }
 
-        for (int i = 0; i < str.length(); i++){
+        for (int i = 0; i < str.length(); i++) {
             System.out.println(str.charAt(i));
         }
     }
