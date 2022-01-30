@@ -4,6 +4,7 @@ public class Main {
 
     /**
      * The method change the balance of the given account according to an operation.
+     *
      * @param account
      * @param operation
      * @return true if the balance has changed, otherwise - false.
