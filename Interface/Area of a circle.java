@@ -1,4 +1,4 @@
-class Circle implements Measurable{
+class Circle implements Measurable {
     private double radius;
 
     public Circle(double radius) {

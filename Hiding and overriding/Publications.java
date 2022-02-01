@@ -1,3 +1,4 @@
+
 class Publication {
 
     private String title;

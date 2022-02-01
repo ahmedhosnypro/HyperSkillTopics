@@ -51,9 +51,10 @@
     Hundred more such boring classes OR ...
     magic class for everything everybody is waiting for
 */
-class Box <T> {
+class Box<T> {
     private T t;
-    public void put(T t){
+
+    public void put(T t) {
         this.t = t;
     }
 
@@ -63,8 +64,11 @@ class Box <T> {
 }
 
 // Don't change classes below
-class Cake { }
+class Cake {
+}
 
-class Pie { }
+class Pie {
+}
 
-class Tart { }
+class Tart {
+}

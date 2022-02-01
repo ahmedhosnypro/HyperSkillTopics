@@ -1,3 +1,4 @@
+
 interface Movable {
 
     void move(float dx, float dy);
@@ -11,7 +12,8 @@ interface Scalable {
 interface MutableShape extends Movable, Scalable {
 
 }
-final class Circle implements MutableShape{
+
+final class Circle implements MutableShape {
 
     /**
      * Defines the horizontal position of the center of the circle
@@ -58,7 +60,7 @@ final class Circle implements MutableShape{
     }
 }
 
-final class Rectangle implements MutableShape{
+final class Rectangle implements MutableShape {
 
     /**
      * Defines the X coordinate of the upper-left corner of the rectangle.

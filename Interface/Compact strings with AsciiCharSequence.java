@@ -4,6 +4,7 @@ import java.util.stream.IntStream;
 
 class AsciiCharSequence implements java.lang.CharSequence {
     byte[] bytes;
+
     public AsciiCharSequence(byte[] bytes) {
         this.bytes = bytes;
     }

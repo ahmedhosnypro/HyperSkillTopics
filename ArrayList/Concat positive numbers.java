@@ -5,11 +5,11 @@ import java.util.stream.Collectors;
 
 class ConcatPositiveNumbersProblem {
 
-    public static ArrayList<Integer> concatPositiveNumbers(ArrayList<Integer> l1, ArrayList<Integer> l2) {
-        l1.removeIf(integer -> integer <= 0);
-        l2.removeIf(integer -> integer <= 0);
-        l1.addAll(l2);
-        return l1; // write your code here
+    public static ArrayList<Integer> concatPositiveNumbers(ArrayList<Integer> fstList, ArrayList<Integer> sndList) {
+        fstList.removeIf(integer -> integer <= 0);
+        sndList.removeIf(integer -> integer <= 0);
+        fstList.addAll(sndList);
+        return fstList;
     }
 
     /* Do not modify this method */

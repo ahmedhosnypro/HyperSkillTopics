@@ -8,7 +8,6 @@ class CollectionUtils {
 
     public static Collection<String> filterPhones(Collection<String> phones,
                                                   Collection<String> blacklist) {
-        // write your code here
         phones.removeAll(blacklist);
         return phones;
     }

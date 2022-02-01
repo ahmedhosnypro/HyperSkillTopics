@@ -6,15 +6,15 @@ class Main {
         Scanner scanner = new Scanner(System.in);
 
         String s = scanner.next();
-        BigInteger M = new BigInteger(s);
+        BigInteger positiveInput = new BigInteger(s);
 
-        BigInteger n = BigInteger.ONE;
-        BigInteger r = BigInteger.ONE;
-        while (r.compareTo(M) <= 0 && r.compareTo(M) != 0) {
-            r = n.multiply(r);
-            n = n.add(BigInteger.ONE);
+        BigInteger smallest = BigInteger.ONE;
+        BigInteger result = BigInteger.ONE;
+        while (result.compareTo(positiveInput) <= 0 && result.compareTo(positiveInput) != 0) {
+            result = smallest.multiply(result);
+            smallest = smallest.add(BigInteger.ONE);
         }
-        n = n.subtract(BigInteger.ONE);
-        System.out.println(n);
+        smallest = smallest.subtract(BigInteger.ONE);
+        System.out.println(smallest);
     }
 }
