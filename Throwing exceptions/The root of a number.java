@@ -3,11 +3,9 @@ import java.util.*;
 public class Main {
 
     public static double sqrt(double x) {
-        // write your code here
-        if (x < 0){
+        if (x < 0) {
             throw new IllegalArgumentException("Expected non-negative number, got " + x);
-        }
-        else
+        } else
             return Math.sqrt(x);
     }
 

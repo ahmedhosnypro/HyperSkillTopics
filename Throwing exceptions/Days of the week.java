@@ -3,9 +3,8 @@ import java.util.*;
 public class Main {
 
     public static String getDayOfWeekName(int number) {
-        // write your code here
         String day = "";
-        switch (number){
+        switch (number) {
             case 1:
                 day = "Mon";
                 break;

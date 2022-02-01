@@ -3,7 +3,6 @@ import java.io.IOException;
 public class Main {
 
     public static void method() throws IOException {
-        // write your code here
         throw new IOException();
     }
 
