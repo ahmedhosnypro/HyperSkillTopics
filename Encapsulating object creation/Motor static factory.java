@@ -6,8 +6,25 @@ class MotorStaticFactory {
      * It returns an initialized motor according to the specified type by the first character:
      * 'P' or 'p' - pneumatic, 'H' or 'h' - hydraulic, 'E' or 'e' - electric, 'W' or 'w' - warp.
      */
+
     public static Motor make(char type, String model, long power) {
         // write your code here
+        switch (type) {
+            case 'P':
+            case 'p':
+                return new PneumaticMotor(model, power);
+            case 'H':
+            case 'h':
+                return new HydraulicMotor(model, power);
+            case 'E':
+            case 'e':
+                return new ElectricMotor(model, power);
+            case 'W':
+            case 'w':
+                return new WarpDrive(model, power);
+            default:
+                return null;
+        }
     }
 }
 

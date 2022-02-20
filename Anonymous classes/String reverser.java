@@ -11,7 +11,7 @@ class Main {
             @Override
             public String reverse(String str) {
                 StringBuilder sb = new StringBuilder(str);
-               return sb.reverse().toString();
+                return sb.reverse().toString();
             }
         };
 
@@ -22,5 +22,4 @@ class Main {
 
         String reverse(String str);
     }
-
 }

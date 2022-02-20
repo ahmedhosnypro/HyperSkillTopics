@@ -1,4 +1,4 @@
-3import java.util.Scanner;
+import java.util.Scanner;
 
 /* Product - Motor */
 abstract class Motor {

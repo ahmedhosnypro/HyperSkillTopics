@@ -1,27 +1,35 @@
-import java.util.Scanner; 
+import java.util.Scanner;
 
-/** Product */
+/**
+ * Product
+ */
 abstract class Robot {
 
     public abstract String getName();
+
     public abstract String getDescription();
+
     public abstract int getPower();
 
     @Override
     public String toString() {
         return "robot: {\n\t" +
-                   "name : " + getName() + "\n\t" + 
-                   "description : " + getDescription() + "\n\t" + 
-                    "power : " + getPower() + "\n}";
+                "name : " + getName() + "\n\t" +
+                "description : " + getDescription() + "\n\t" +
+                "power : " + getPower() + "\n}";
     }
 }
 
-/** Type of product - Robot Type */
+/**
+ * Type of product - Robot Type
+ */
 enum RobotType {
-    ROBOT_CLEANER   
+    ROBOT_CLEANER
 }
 
-/** Concrete Product - Robot Cleaner */
+/**
+ * Concrete Product - Robot Cleaner
+ */
 class RobotCleaner extends Robot {
 
     private String name;
@@ -56,31 +64,37 @@ class RobotCleaner extends Robot {
 
 }
 
-/** Factory  */
+/**
+ * Factory
+ */
 class RobotFactory {
 
-    /** Factory Method **/
+    /**
+     * Factory Method
+     **/
     public Robot getRobot(RobotType type, String name, String description, int power) {
         /** write your code here ... */
         return new RobotCleaner(name, description, power);
     }
 }
 
-/** Factory Demo */
+/**
+ * Factory Demo
+ */
 class RobotDemo {
     public static void main(String[] args) {
 
-        RobotFactory robotFactory = new RobotFactory();  
+        RobotFactory robotFactory = new RobotFactory();
         Scanner scanner = new Scanner(System.in);
 
         String nameCleaner = scanner.nextLine();
 
         Robot robotCleaner = robotFactory.
-            getRobot(
-                RobotType.ROBOT_CLEANER,
-                nameCleaner,
-                "Robot will clean my room and dry my socks",
-                100);
+                getRobot(
+                        RobotType.ROBOT_CLEANER,
+                        nameCleaner,
+                        "Robot will clean my room and dry my socks",
+                        100);
 
         System.out.println(robotCleaner);
 

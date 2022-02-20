@@ -2,8 +2,7 @@ import java.util.*;
 
 public class Main {
 
-    public static void main(String[] args) {  
-        // write your code here
+    public static void main(String[] args) {
         Queue<Integer> queue = new ArrayDeque<>();
         queue.add(2);
         queue.add(0);
