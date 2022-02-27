@@ -1,5 +1,6 @@
+
 class CalculatorWrapper {
-    static Calculator anonymousCalculator = new Calculator(){
+    static Calculator anonymousCalculator = new Calculator() {
 
         @Override
         public long sum(long val1, long val2) {

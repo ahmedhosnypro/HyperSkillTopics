@@ -24,10 +24,9 @@ public class Main {
 
             @Override
             public void onFinished(int code) {
-                if (code == 0){
+                if (code == 0) {
                     System.out.println("The process successfully finished");
-                }
-                else {
+                } else {
                     System.out.println("The process is finished with error: " + code);
                 }
             }

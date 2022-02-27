@@ -1,3 +1,4 @@
+
 class IteratorExecutor {
 
     static void performIterationsWithCallback(int numberOfIterations, LoopCallback callback) {
@@ -7,18 +8,17 @@ class IteratorExecutor {
     }
 
     static void startIterations(int numberOfIterations) {
-        // invoke the method performIterationsWithCallback here
-        performIterationsWithCallback(numberOfIterations, new LoopCallback() {
+        LoopCallback loopCallback = new LoopCallback() {
             @Override
             public void onNewIteration(int iteration) {
                 System.out.println("Iteration: " + iteration);
             }
-        });
+        };
+        performIterationsWithCallback(numberOfIterations, loopCallback);
     }
 }
 
 // Don't change the code below
 interface LoopCallback {
-
     void onNewIteration(int iteration);
 }
