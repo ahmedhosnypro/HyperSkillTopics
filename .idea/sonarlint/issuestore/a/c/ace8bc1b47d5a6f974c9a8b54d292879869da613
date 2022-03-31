@@ -1,0 +1,5 @@
+
+f
+java:S6206"KRefactor this class declaration to use 'record User(String name, int age)'.(â•žüýÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(‚Êë‚üÿÿÿÿ

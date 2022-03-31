@@ -5,20 +5,18 @@ class MapUtils {
     public static SortedMap<String, Integer> wordCount(String[] strings) {
         SortedMap<String, Integer> sortedMap = new TreeMap<>();
         for (String s : strings) {
-            if (!sortedMap.containsKey(s)){
-                sortedMap.put(s,1);
-            }
-            else
+            if (!sortedMap.containsKey(s)) {
+                sortedMap.put(s, 1);
+            } else {
                 sortedMap.replace(s, sortedMap.get(s) + 1);
+            }
         }
-
         return sortedMap;
     }
 
     public static void printMap(Map<String, Integer> map) {
         map.forEach((key, value) -> System.out.println(key + " : " + value));
     }
-
 }
 
 /* Do not change code below */

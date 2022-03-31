@@ -3,12 +3,11 @@ import java.util.*;
 class MapUtils {
 
     public static void mapShare(Map<String, String> map) {
-        if(map.get("a") != null){
+        if (map.get("a") != null) {
             map.put("b", map.get("a"));
         }
         map.remove("c");
     }
-
 }
 
 /* Do not change code below */

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-03-03T17:18:45.478793200Z</date>
+  <millis>1646327925478</millis>
+  <nanos>793200</nanos>
+  <sequence>4</sequence>
+  <logger>threads.Main</logger>
+  <level>INFO</level>
+  <class>LoggerClass</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Info log message</message>
+</record>
+<record>
+  <date>2022-03-03T17:18:45.482793Z</date>
+  <millis>1646327925482</millis>
+  <nanos>793000</nanos>
+  <sequence>6</sequence>
+  <logger>threads.Main</logger>
+  <level>INFO</level>
+  <class>LoggerClass</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Info Log</message>
+</record>
+</log>

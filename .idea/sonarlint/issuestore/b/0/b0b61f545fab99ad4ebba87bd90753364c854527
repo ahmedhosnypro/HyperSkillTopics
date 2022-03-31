@@ -1,0 +1,7 @@
+
+B
+java:S5855",Remove or rework this redundant alternative.(ÔçÆ°
+b
+java:S5998"LRefactor this repetition that can lead to a stack overflow for large inputs.(ÔçÆ°
+F
+java:S6035"0Replace this alternation with a character class.(ÔçÆ°
