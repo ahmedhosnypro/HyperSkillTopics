@@ -1,20 +1,20 @@
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * Get sorted list of private fields the object declares (inherited fields should be skipped).
  */
+
 class FieldGetter {
+
     public List<String> getPrivateFields(Object object) {
-        Field[] fieldsObject = object.getClass().getDeclaredFields();
-        List<String> list = new ArrayList<>();
-        for (Field field : fieldsObject) {
-            if (Modifier.isPrivate(field.getModifiers())) {
-                list.add(field.getName());
-            }
-        }
-        Collections.sort(list);
-        return list;
+        return Arrays.stream(object.getClass().getDeclaredFields())
+                .filter(f -> Modifier.isPrivate(f.getModifiers()))
+                .map(Field::getName)
+                .sorted()
+                .toList();
     }
+
 }

@@ -1,10 +1,6 @@
 
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 O
 Abstract class/Base Entity.java,4\e\4eacdc983c570314b5641e232dda0f558c634976
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 O
 Comparator/Reverse sorting.java,8\2\82b00d7ba252346ccf782ed219d10bbad3f94b33
 J
@@ -65,8 +61,6 @@ d
 0Window listeners/Count a window active time.java,8\a\8a6fc2821950bdc2ac6b5c84360eee3439f5aac3
 Z
 *Window listeners/Implement a listener.java,5\7\57f79212460061a946fd66898ef43b3da179b693
-S
-#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 P
  Timers/Creating a TimerTask.java,1\1\11a0b1c556e7756007ccb32c04b8996b1ba9bb32
 `
@@ -93,10 +87,6 @@ Z
 *Replacing characters/Remove HTML tags.java,5\6\569777e2f0f31268dc4b3f0c5e3a9dcf9dbfc422
 ]
 -Replacing characters/Remove extra spaces.java,5\0\50de14c89ec1067ebf73d208ccb4ecd10b4b47ef
-T
-$src/main/java/HttpClientExample.java,7\6\7645a3c9bfd6c9d0a62582bb267a4d82ae7241ee
-Y
-)src/main/java/HTTPInteractionExample.java,f\8\f8ea0351c5bec0f91e3e0670e4851214802a3522
 U
 %The Map interface/Creating a map.java,3\9\3913d14eebe5dbb50e4a296c816d37a93c860cca
 W
