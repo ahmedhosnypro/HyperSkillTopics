@@ -1,3 +1,4 @@
+package decorator;
 
 class TestDrive {
     public static void main(String[] args) {
@@ -41,7 +42,7 @@ class Bagel extends Bread {
 
     Bagel() {
         super();
-        description = "Bagel";
+        description = "decorator.Bagel";
         kcal = 250;
     }
 }
@@ -50,14 +51,16 @@ class Bun extends Bread {
 
     Bun() {
         super();
-        description = "Bun";
+        description = "decorator.Bun";
         kcal = 150;
     }
 }
 
 abstract class Decorator extends Bread {
+    @Override
     abstract String getDescription();
 
+    @Override
     abstract int getKcal();
 }
 
@@ -71,7 +74,7 @@ class Butter extends Decorator {
 
     @Override
     String getDescription() {
-        return bread.getDescription() + ", Butter";
+        return bread.getDescription() + ", decorator.Butter";
     }
 
     @Override
@@ -91,7 +94,7 @@ class Jam extends Decorator {
 
     @Override
     String getDescription() {
-        return bread.getDescription() + ", Jam";
+        return bread.getDescription() + ", decorator.Jam";
     }
 
     @Override
@@ -111,7 +114,7 @@ class Cheese extends Decorator {
 
     @Override
     String getDescription() {
-        return bread.getDescription() + ", Cheese";
+        return bread.getDescription() + ", decorator.Cheese";
     }
 
     @Override
@@ -131,7 +134,7 @@ class Ham extends Decorator {
 
     @Override
     String getDescription() {
-        return bread.getDescription() + ", Ham";
+        return bread.getDescription() + ", decorator.Ham";
     }
 
     @Override

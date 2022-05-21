@@ -25,12 +25,6 @@ d
 0Map and flatMap/Sorting the absolute values.java,8\e\8e6e735fd403e36be0d18b221b8c55b4272d3ddd
 Y
 )Optional/The chain of responsibility.java,0\8\0869fc5818c2ed8439e3b8ee8d0d8bce36fdc344
-U
-%Infinite streams/Generating cats.java,5\5\553a43ee26ca43d612aef206cdf1b93f26b5af1c
-Q
-!Taking elements/Secret codes.java,a\d\ad04882fd2af4353653c8a356c4caab790816159
-a
-1Taking elements/Sorting and skipping numbers.java,8\e\8e0f39c7762f6bf29098752452b0fe909e88b9a1
 K
 Collectors/Set average.java,b\3\b38c88a873e365c3567f21303a8eb9c802b6cee2
 N
@@ -47,8 +41,6 @@ l
 <Functional data processing with streams/Count passwords.java,b\8\b81a0cf9d0c511c9a26d62651beb806d45755500
 f
 6Standard logger/Find integer values of Log levels.java,e\a\ea203417fdbd8072db6f47ae8ec4d500348cc53f
-X
-(Lambda expressions/Next even number.java,1\c\1cf9800a24cf926c4498dc3c0515dfe3ac2e4554
 U
 %Optional/Check an Optional value.java,0\4\04b4b7d230aa560a0f8ba8f0310ab1049bc9ef47
 L
@@ -80,11 +72,7 @@ a
 `
 0Patterns and Matcher/Start or end of a word.java,7\9\792c005476cfe7f0049d33528490dd1a65e738c6
 Y
-)Replacing characters/Remove comments.java,b\3\b3c04873d2967d2089aa964177119044d1a07b1f
-Y
 )Replacing characters/Check the essay.java,1\2\127a3e3365f3c7ec741ca159ba90d5dfdbbe4cd9
-Z
-*Replacing characters/Remove HTML tags.java,5\6\569777e2f0f31268dc4b3f0c5e3a9dcf9dbfc422
 ]
 -Replacing characters/Remove extra spaces.java,5\0\50de14c89ec1067ebf73d208ccb4ecd10b4b47ef
 U
@@ -95,12 +83,6 @@ U
 %The Map interface/Counting words.java,3\e\3e3732ef73ff5b97b60d8c3b3f8619738eeeb81b
 V
 &The Map interface/Modifying a map.java,9\3\93a3a4bf6d4ce2633a94ef4f51078e8ff6ccaa77
-e
-5Match results/Extracting big numbers from a text.java,9\7\973749bb28f0be46431be7dec2cd655392cbcc7d
-_
-/Match results/Extracting words from a text.java,0\9\097d4a5c416d70eb607b59e12ee14cbb03a51062
-U
-%Match results/Find all passwords.java,b\0\b0b61f545fab99ad4ebba87bd90753364c854527
 F
 String/Palindrome.java,2\7\2799ad0b51767833a8cb83073d5ec5411e016ca6
 j
@@ -129,10 +111,6 @@ n
 >src/main/java/threads/ConcurrentLinkedQueue_GeneratorDemo.java,d\8\d87ab338c2fa49230ac855ea6b49cfbcc2dc5302
 b
 2src/main/java/threads/ConcurrentLinkedQueueEx.java,c\0\c081aa7f40e35318691fc0999cc9107e6c0fecce
-X
-(src/main/java/threads/customThreads.java,7\e\7ee3a44b7aeb24b20d46e0659b975c01bbf5c73b
-O
-src/main/java/threads/Main.java,1\b\1b987d16b3aa903b57f7a101c044443e9c534499
 n
 >src/main/java/examples/swing/JComboBox_TimeFormattingDemo.java,4\f\4f9a58543247b5f5315d4a0f8bf5025836af5764
 \
@@ -147,10 +125,6 @@ a
 ,src/main/java/threads/synchronizedMapEx.java,e\7\e7888052c25b5f9a8b8a69980242a50daad9468b
 Y
 )Multidimensional array/The third row.java,9\5\95ca354c6aaef3b57677ba0077704451ee17b596
-]
--Streams of primitives/The average salary.java,8\9\89c4fc16a305b53cdc675f9cd6011f0dbc034c8e
-`
-0Streams of primitives/A stream without zero.java,9\b\9b89aa334ee069f53affafbc49fa2b7ae4ad099c
 l
 <Stream pipelines/The total sum of canceled transactions.java,d\7\d7ed3822d6a77a6a3d518908add191aa8dbda213
 [
@@ -179,3 +153,87 @@ b
 2src/main/java/network/EchoServerMultiThreaded.java,b\3\b34ef3d1c62ca18c289ebfbea01ac9deef5260f6
 U
 %src/main/java/network/EchoServer.java,2\6\2684e375886d933043690e1f3501b2cbf1a38428
+S
+#Reflection/Retrieve class name.java,1\2\120d13d1f64732a84ffd6f4d559fa445d0400381
+K
+Reflection/Field value.java,8\0\80defc20fc656d14c98c21f1e67edf4cb0da066f
+T
+$Serialization/Serializable user.java,8\8\880c679b682b45daa7555349aaebbc2cd471c3be
+_
+/Dealing with modifiers/List private fields.java,4\c\4c68fc0e0c46eca239a44fe61b3d1c009ba32b64
+^
+.Dealing with modifiers/List public fields.java,6\d\6d2cef7e4f82361b9715f4ecbd475073e1860a71
+R
+"src/main/java/json/gson/items.json,4\e\4e6dc7ae1e12a8a722d73f1dbd4b705b56437392
+R
+"src/main/java/json/gson/users.json,2\d\2d7b4e4ce5d19c699dd8bc8c0abd3beec1bd4954
+X
+(src/main/java/serialization/Address.java,7\7\77529851019fe0fa6d9d18d27413ebf3f73e8c6a
+P
+ src/main/java/json/gson/Car.java,5\b\5b6e5439ad28efe22c92c8534859e4d57efcaaa4
+X
+(src/main/java/serialization/Citizen.java,4\3\43cb23631d14c2df88d4eadc3534e0eeff5c29b7
+Z
+*src/main/java/json/gson/GsonBuilderEx.java,6\3\63ca927c1e02741fa255e8644226658fe1809be0
+^
+.src/main/java/json/gson/GsonExcludeFields.java,7\9\79593c18a3e68279913ee0c2cd3cbef5714dd176
+\
+,src/main/java/json/gson/GsonReadWebPage.java,6\e\6e1aca4afa179cc2a718d4ccb30f8747fa12aaeb
+_
+/src/main/java/json/gson/GsonSerializeNulls.java,2\2\227a5f83066a8dc2d5784d52b52b8d002d730d74
+W
+'src/main/java/json/gson/GsonToJson.java,3\a\3a36b93db012dd32e694c7e9f52ddff2de71f15d
+Q
+!src/main/java/json/gson/Item.java,7\f\7f509c3b9530f8e12c2ab040e2fd2aab4cd43d80
+U
+%src/main/java/serialization/Main.java,c\9\c96fa54fe0fc9584d9f18ae498acf42fcf61a1da
+Z
+*src/main/java/json/gson/MaritalStatus.java,e\a\ea5c19bc450e18d4eb801ac750f7186279fab7f0
+S
+#src/main/java/json/gson/Person.java,2\3\23c794365d5543f9e3f1f12636e03beb2bb4a260
+c
+3src/main/java/serialization/SerializationUtils.java,e\6\e6082a2e71cf1620550b4a3fb35c147f97416420
+U
+%src/main/java/json/gson/TimeData.java,9\7\97abbeedca1f694ef6feb5a8ed9cc753d04b5627
+Z
+*src/main/java/json/gson/GsonWriteList.java,d\8\d8a51c4de837b06a75d63fe678ce66b6b5ac380f
+_
+/src/main/java/json/gson/GsonPrettyPrinting.java,f\0\f001ac05c1c6ccf70dbab0ed252ddc3e03c6158d
+a
+1src/main/java/json/gson/GsonDataBindApiWrite.java,0\2\02358dab97f3b409767c98172cafbda5d419766d
+c
+3src/main/java/json/gson/GsonDataBindingApiRead.java,3\4\34ab4ec6a1e951a443b71e4730bc4cda4bf6226e
+_
+/src/main/java/json/gson/GsonStreamApiWrite.java,a\6\a6e1453606d06dfe71249333a551f318b2430859
+_
+/src/main/java/json/gson/GsonTreeModelWrite.java,a\4\a4ba7cffa5bb49db9d83f5fb7f0ab448011bd02d
+Q
+!src/main/java/json/gson/User.java,4\4\449ffa5d8858c80609ccc565fb4d86dffad7828e
+Z
+*src/main/java/json/gson/GsonReadArray.java,4\d\4d6899e4b9721a9689aa16c3262b7bd178123c66
+U
+%Match results/Find all passwords.java,b\0\b0b61f545fab99ad4ebba87bd90753364c854527
+Z
+*Replacing characters/Remove HTML tags.java,5\6\569777e2f0f31268dc4b3f0c5e3a9dcf9dbfc422
+Y
+)Replacing characters/Remove comments.java,b\3\b3c04873d2967d2089aa964177119044d1a07b1f
+_
+/Match results/Extracting words from a text.java,0\9\097d4a5c416d70eb607b59e12ee14cbb03a51062
+e
+5Match results/Extracting big numbers from a text.java,9\7\973749bb28f0be46431be7dec2cd655392cbcc7d
+U
+%Infinite streams/Generating cats.java,5\5\553a43ee26ca43d612aef206cdf1b93f26b5af1c
+Q
+!Taking elements/Secret codes.java,a\d\ad04882fd2af4353653c8a356c4caab790816159
+a
+1Taking elements/Sorting and skipping numbers.java,8\e\8e0f39c7762f6bf29098752452b0fe909e88b9a1
+X
+(Lambda expressions/Next even number.java,1\c\1cf9800a24cf926c4498dc3c0515dfe3ac2e4554
+`
+0Streams of primitives/A stream without zero.java,9\b\9b89aa334ee069f53affafbc49fa2b7ae4ad099c
+]
+-Streams of primitives/The average salary.java,8\9\89c4fc16a305b53cdc675f9cd6011f0dbc034c8e
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

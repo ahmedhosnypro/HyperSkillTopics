@@ -1,3 +1,4 @@
+
 enum SI {
 
     M("length"),
@@ -10,9 +11,7 @@ enum SI {
         this.quantityName = quantityName;
     }
 
-    // implement getQuantity() method here
-
-    public String getQuantity() {
+    public String getQuantityName() {
         return quantityName;
     }
 }

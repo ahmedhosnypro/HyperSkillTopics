@@ -11,28 +11,28 @@ public class GsonStreamApiRead {
 
         String json_string = "{\"name\":\"chair\",\"quantity\":3}";
 
-        try (JsonReader reader = new JsonReader(new StringReader(json_string))) {
+        try (JsonReader jsonReader = new JsonReader(new StringReader(json_string))) {
 
-            while (reader.hasNext()) {
+            while (jsonReader.hasNext()) {
 
-                JsonToken nextToken = reader.peek();
+                JsonToken nextToken = jsonReader.peek();
 
                 if (JsonToken.BEGIN_OBJECT.equals(nextToken)) {
 
-                    reader.beginObject();
+                    jsonReader.beginObject();
 
                 } else if (JsonToken.NAME.equals(nextToken)) {
 
-                    reader.nextName();
+                    jsonReader.nextName();
 
                 } else if (JsonToken.STRING.equals(nextToken)) {
 
-                    String value = reader.nextString();
+                    String value = jsonReader.nextString();
                     System.out.format("%s: ", value);
 
                 } else if (JsonToken.NUMBER.equals(nextToken)) {
 
-                    long value = reader.nextLong();
+                    long value = jsonReader.nextLong();
                     System.out.println(value);
 
                 }

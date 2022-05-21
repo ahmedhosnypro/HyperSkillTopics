@@ -1,3 +1,5 @@
+package decorator.pizza;
+
 import java.util.Locale;
 
 class TestDrive {
@@ -38,6 +40,7 @@ class Vegan extends Pizza {
     private static final double COST = 4.99;
 
     Vegan() {
+        super();
         description = "Vegan";
     }
 
@@ -51,6 +54,7 @@ class MeatHeaven extends Pizza {
     private static final double COST = 4.0;
 
     MeatHeaven() {
+        super();
         description = "MeatHeaven";
     }
 
@@ -70,6 +74,7 @@ class Ham extends Decorator {
     private final Pizza pizza;
 
     Ham(Pizza pizza) {
+        super();
         this.pizza = pizza;
     }
 
@@ -89,6 +94,7 @@ class Chicken extends Decorator {
     private final Pizza pizza;
 
     Chicken(Pizza pizza) {
+        super();
         this.pizza = pizza;
     }
 
@@ -108,6 +114,7 @@ class Cheese extends Decorator {
     private final Pizza pizza;
 
     Cheese(Pizza pizza) {
+        super();
         this.pizza = pizza;
     }
 
@@ -127,6 +134,7 @@ class Broccoli extends Decorator {
     private final Pizza pizza;
 
     Broccoli(Pizza pizza) {
+        super();
         this.pizza = pizza;
     }
 
@@ -146,6 +154,7 @@ class Tomato extends Decorator {
     private final Pizza pizza;
 
     Tomato(Pizza pizza) {
+        super();
         this.pizza = pizza;
     }
 
@@ -165,6 +174,7 @@ class Spinach extends Decorator {
     private final Pizza pizza;
 
     Spinach(Pizza pizza) {
+        super();
         this.pizza = pizza;
     }
 

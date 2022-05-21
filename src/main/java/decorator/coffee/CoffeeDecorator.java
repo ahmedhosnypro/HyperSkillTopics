@@ -1,3 +1,5 @@
+package decorator.coffee;
+
 import java.util.Locale;
 
 class TestDrive {

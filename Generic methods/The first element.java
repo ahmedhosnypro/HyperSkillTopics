@@ -1,15 +1,15 @@
-// do not remove imports
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.function.Function;
 
 class ArrayUtils {
-    // define getFirst method here
-    static <T> T getFirst(T[] array) {
-        if (array.length == 0){
+    static <T> T getFirst(T[] t) {
+        if (t.length == 0) {
             return null;
+        } else {
+            return t[0];
         }
-        else return array[0];
     }
 }

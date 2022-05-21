@@ -36,11 +36,9 @@ public class GsonTreeModelRead {
                     System.out.println(car.get("model").getAsString());
                     System.out.println(car.get("price").getAsInt());
 
-                    JsonArray cols = car.getAsJsonArray("colors");
+                    JsonArray cols = car.getAsJsonArray("colours");
 
-//                    cols.forEach(col -> {
-//                        System.out.println(col);
-//                    });
+                    cols.forEach(System.out::println);
                 }
             }
         }
